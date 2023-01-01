@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+}
+
+.background {
+    position: absolute;
+    left: 210px;
+    top: 0px;
+}
+
+.background img {
+    position: absolute; 
+   width: 1154px;
+   height: 659px;
+   
+}
+
+.logo img {
+    position: absolute;
+    width: 100%;
+    max-width: 150px;
+    left: 20px;
+    top: 20px;
+}
+
+.pikachu img {
+    position: absolute;
+    width: 100%;
+    max-width: 712px;
+    height: 488px;
+    left: 654px;
+    top: 175px;
+}
+
+.nav-bar {
+    position: absolute;
+    left: 240px;
+    top: 39px;
+}
+
+.nav-bar a {
+    position: relative;
+    color: #FFFFFF;
+    z-index: 1;
+    text-decoration: none;
+    padding: 20px;
+    font-size: clamp(0.5625rem, -0.1406rem + 2.25vw, 1.125rem);
+}
+
+.nav-bar a:hover {
+    color: yellow;
+}
+
+.info {
+    position: absolute;
+    top: 117px;
+    left: 5px;
+    
+}
+
+.info-padd {
+    padding: 40px;
+}
+
+.info p {
+    position: relative;
+    color: #FFFFFF;
+    font-size: clamp(0.5rem, -0.125rem + 2vw, 1rem);
+    padding: 10px;
+}
+
+.info span {
+    position: absolute;
+    width: 80px;
+    border: 2px solid #FFFFFF;
+    left: 50px;
+    border-radius: 5px;
+}
+
+.pikachu-who {
+    position: absolute;
+    color: #FFFFFF;
+    left: 260px;
+    top: 240px;
+}
+
+.pikachu-who h1 {
+    position: relative;
+    font-size: clamp(1.875rem, -0.4688rem + 7.5vw, 3.75rem);
+    padding-bottom: 20px;
+    letter-spacing: 0.5rem;
+}
+
+.pikachu-who p {
+    position: relative;
+    font-size: clamp(1.09375rem, 1.2891rem + -0.625vw, 0.9375rem);
+    letter-spacing: 0.1rem;    
+}
+
